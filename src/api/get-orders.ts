@@ -7,7 +7,7 @@ export type GetOrdersQuery = {
   pageIndex?: number | null
 }
 
-type GetOrdersResponse = {
+export type GetOrdersResponse = {
   orders: {
     orderId: string
     createdAt: string
