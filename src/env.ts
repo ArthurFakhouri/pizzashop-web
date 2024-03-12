@@ -1,6 +1,7 @@
 import { z } from 'zod'
 
 const envSchema = z.object({
+  MODE: z.enum(['production', 'development', 'test']),
   VITE_PIZZASHOP_API_URL: z.string().min(1),
   VITE_ENABLE_API_DELAY: z.string().transform((value) => value === 'true'),
 })
