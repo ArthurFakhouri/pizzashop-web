@@ -21,7 +21,7 @@ test('sign in with wrong credentials', async ({ page }) => {
   await page.getByLabel('Seu e-mail').fill('wrong@example.com')
   await page.getByRole('button', { name: 'Acessar painél' }).click()
 
-  const toast = page.getByText('Credenciais inválida.')
+  const toast = page.getByText('Credenciais inválidas.')
 
   expect(toast).toBeVisible()
 
