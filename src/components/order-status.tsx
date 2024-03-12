@@ -18,7 +18,7 @@ const orderStatusMap: Record<OrderStatusOptions, string> = {
 }
 
 const orderStatusStyleMap: Record<OrderStatusOptions, string> = {
-  pending: 'bg-slatel-400',
+  pending: 'bg-stone-400',
   canceled: 'bg-rose-500',
   delivered: 'bg-emerald-500',
   delivering: 'bg-amber-500',
@@ -28,7 +28,10 @@ const orderStatusStyleMap: Record<OrderStatusOptions, string> = {
 export function OrderStatus({ status }: OrderStatusProps) {
   return (
     <div className="flex items-center gap-2">
-      <span className={`h-2 w-2 rounded-full ${orderStatusStyleMap[status]}`} />
+      <span
+        data-testid="badge"
+        className={`h-2 w-2 rounded-full ${orderStatusStyleMap[status]}`}
+      />
       <span className="font-medium text-muted-foreground">
         {orderStatusMap[status]}
       </span>
