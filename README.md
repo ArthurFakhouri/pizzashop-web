@@ -36,8 +36,8 @@ In addition to creating unit tests and E2E tests (End to End)
 
 ## 🔧 How to execute it 
 Go to the folder where you clone the project, open a terminal and follow these steps:
-- 02 - pnpm install (This command will install all project dependencies)
-- 03 - pnpm dev (This command will run the project and by default it will be running at: http://localhost:5173)
+- 01 - pnpm install (This command will install all project dependencies)
+- 02 - pnpm dev (This command will run the project and by default it will be running at: http://localhost:5173)
 
 ## 📽️ Demonstration
 
