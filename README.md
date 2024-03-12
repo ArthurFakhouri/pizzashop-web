@@ -42,6 +42,10 @@ Go to the folder where you clone the project, open a terminal and follow these s
 ## 📽️ Demonstration
 
 
+https://github.com/ArthurFakhouri/pizzashop-web/assets/71707151/ba9b7f08-5e08-4db5-878b-29a7390e23b3
+
+
+
 
 ## 🚀 Technologies
 
